@@ -1,0 +1,86 @@
+[
+  {
+    "ContainingType": "EList.Controllers.ListController",
+    "Method": "GetActivetask",
+    "RelativePath": "api/List/active",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EList.Controllers.ListController",
+    "Method": "deleteActiveTasks",
+    "RelativePath": "api/List/delete/{task_id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "task_id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EList.Controllers.ListController",
+    "Method": "getTaskbyId",
+    "RelativePath": "api/List/GetByid/{task_id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "task_id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EList.Controllers.ListController",
+    "Method": "getTaskbyName",
+    "RelativePath": "api/List/GetByname",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "task_name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EList.Controllers.ListController",
+    "Method": "getInactivetask",
+    "RelativePath": "api/List/inactive",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EList.Controllers.ListController",
+    "Method": "insertNewTask",
+    "RelativePath": "api/List/SaveTask",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tasks",
+        "Type": "EList.Models.Tasks",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
