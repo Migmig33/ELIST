@@ -27,7 +27,7 @@
         android:text="TO-DO"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textFontWeight="300"
+        android:textFontWeight="500"
         android:textSize="35dp"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="126dp" />
@@ -36,15 +36,27 @@
         android:layout_marginTop="180dp"
         android:id="@+id/listViewTask"
         android:layout_width="380dp"
-        android:layout_height="match_parent"
+        android:layout_height="430dp"
         android:background="@drawable/borderlist"
         android:divider="@drawable/border"
         android:dividerHeight="6dp"
         android:paddingHorizontal="8dp"
         android:paddingTop="8dp"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="-102dp" >
+        tools:layout_editor_absoluteY="202dp" >
 
 
     </ListView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="+"
+        android:textAlignment="center"
+        android:src="@drawable/ic_icon_add"
+        android:backgroundTint="#2c2c2c"
+        app:maxImageSize="48dp"
+        tools:layout_editor_absoluteX="330dp"
+        tools:layout_editor_absoluteY="650"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
