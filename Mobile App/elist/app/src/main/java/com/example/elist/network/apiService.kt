@@ -7,10 +7,10 @@ import com.google.gson.reflect.TypeToken
 import java.io.OutputStreamWriter
 
 
-object apiService{
+object ApiService{
 
-    private var API_URL = "http://10.0.2.2:7037/api/List"
-    private var API_INSERT = "http://10.0.2.2:7037/api/List/SaveTask"
+    private var API_URL = "http://192.168.1.24:7037/api/List/active"
+    private var API_INSERT = "http://192.168.1.24:7037/api/List/SaveTask"
 
 
 

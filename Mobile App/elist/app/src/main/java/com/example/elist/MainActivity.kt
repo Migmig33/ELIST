@@ -1,23 +1,17 @@
 package com.example.elist
 
-import android.app.ActivityManager
 import android.os.Bundle
-import android.widget.AutoCompleteTextView
 import android.widget.Button
-import android.widget.TextView
 import android.widget.ListView
 import android.widget.EditText
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
-import android.widget.ArrayAdapter
 import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.Dispatchers
 import com.example.elist.model.Tasks
 import com.example.elist.adapter.TaskAdapter
-import com.example.elist.network.apiService
+import com.example.elist.network.ApiService
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
@@ -41,7 +35,7 @@ class MainActivity : AppCompatActivity() {
         //List View Render and populate data to the screen
         lifecycleScope.launch {
             task = withContext(Dispatchers.IO){
-                apiService.fetchTask() ?: emptyList()
+                ApiService.fetchTask() ?: emptyList()
         }
 
             if (!task.isNullOrEmpty()){
