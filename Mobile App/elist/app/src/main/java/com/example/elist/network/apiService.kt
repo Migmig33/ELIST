@@ -10,6 +10,8 @@ import java.io.OutputStreamWriter
 object ApiService{
 
     private var API_URL = "http://192.168.1.24:7037/api/List/active"
+    private var API_URL_INACTIVE = "http://192.168.1.24:7037/api/List/inactive"
+
     private var API_INSERT = "http://192.168.1.24:7037/api/List/SaveTask"
 
 
@@ -33,6 +35,27 @@ object ApiService{
             e.printStackTrace()
             null
         }
+    }
+    suspend fun fetchInactiveTask(): List<Tasks>? {
+        return try{
+            val api = API_URL_INACTIVE;
+            val url = URL(api)
+            val connection = url.openConnection() as HttpURLConnection
+            connection.requestMethod="GET"
+            connection.connectTimeout = 5000
+            connection.readTimeout = 5000
+
+            if(connection.responseCode == HttpURLConnection.HTTP_OK){
+                val response = connection.inputStream.bufferedReader().readText()
+                val type = object : TypeToken<List<Tasks>>() {}.type
+                Gson().fromJson<List<Tasks>>(response, type)
+
+            }else null
+        }catch(e: Exception){
+            e.printStackTrace()
+            null
+        }
+
     }
 
 

@@ -1,5 +1,6 @@
 package com.example.elist
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ListView
@@ -12,15 +13,13 @@ import kotlinx.coroutines.Dispatchers
 import com.example.elist.model.Tasks
 import com.example.elist.adapter.TaskAdapter
 import com.example.elist.network.ApiService
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var taskName : EditText
-    private lateinit var taskDescription: EditText
-    private lateinit var duedate : EditText
-    private lateinit var submitBtn : Button
+
     private lateinit var task : List<Tasks>
 
 
@@ -48,5 +47,13 @@ class MainActivity : AppCompatActivity() {
 
 
         }
+
+        //addTask Function
+        val btnAddTask = findViewById<FloatingActionButton>(R.id.addTask)
+
+        btnAddTask.setOnClickListener {
+           val intent = Intent(this, AddTask::class.java)
+            startActivity(intent)
+       }
     }
 }
