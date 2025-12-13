@@ -1,8 +1,14 @@
 package com.example.elist.model
 
+import com.google.gson.annotations.SerializedName
 data class Tasks(
-    val task_id: String = "",
-    val task_name: String = "",
-    val task_description: String = "",
-    val dueDate: String = ""
+    @SerializedName("task_id")
+    val taskId: String = "",
+    @SerializedName("task_name")
+    val taskName: String = "",
+    @SerializedName("task_description")
+    val taskDescription: String = "",
+    @SerializedName("due_date")
+    val dueDate: String = "",
+    val isactive: Boolean = false
 )

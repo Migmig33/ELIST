@@ -4,6 +4,8 @@ import java.net.HttpURLConnection
 import java.net.URL
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
 import java.io.OutputStreamWriter
 
 
@@ -16,8 +18,8 @@ object ApiService{
 
 
 
-    suspend fun fetchTask(): List<Tasks>? {
-        return try{
+    suspend fun fetchTask(): List<Tasks>? = withContext(Dispatchers.IO) {
+         try{
 
             val api = API_URL;
             val url = URL(api)
@@ -36,8 +38,8 @@ object ApiService{
             null
         }
     }
-    suspend fun fetchInactiveTask(): List<Tasks>? {
-        return try{
+    suspend fun fetchInactiveTask(): List<Tasks>? = withContext(Dispatchers.IO){
+        try{
             val api = API_URL_INACTIVE;
             val url = URL(api)
             val connection = url.openConnection() as HttpURLConnection
@@ -61,8 +63,8 @@ object ApiService{
 
 
 
-    suspend fun addTask(tasks: Tasks): Boolean{
-        return try{
+    suspend fun addTask(tasks: Tasks): Boolean = withContext(Dispatchers.IO){
+        try{
             val api = API_INSERT;
             val url = URL(api)
             val connection = url.openConnection() as HttpURLConnection
@@ -98,7 +100,7 @@ object ApiService{
 
     suspend fun deleteTask(tasks: Tasks): Boolean{
         return try{
-            val api = "http://10.0.2.2:7037/api/List/delete${tasks.task_id}";
+            val api = "http://10.0.2.2:7037/api/List/delete${tasks.taskId}";
             val url = URL(api)
             val connection = url.openConnection() as HttpURLConnection
             connection.requestMethod = "POST"

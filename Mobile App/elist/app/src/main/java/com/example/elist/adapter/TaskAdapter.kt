@@ -17,8 +17,8 @@ class TaskAdapter(context: Context, private val tasks: MutableList<Tasks>) :
             .inflate(R.layout.task_list, parent, false)
 
         val task = tasks[position]
-        view.findViewById<TextView>(R.id.tvTaskName).text = task.task_name
-        view.findViewById<TextView>(R.id.tvTaskDescription).text = task.task_description
+        view.findViewById<TextView>(R.id.tvTaskName).text = task.taskName
+        view.findViewById<TextView>(R.id.tvTaskDescription).text = task.taskDescription
         view.findViewById<TextView>(R.id.tvTaskDueDate).text = task.dueDate
 
         return view
