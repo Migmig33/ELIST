@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\ME\\source\\repos\\Elist\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|c:\\users\\me\\source\\repos\\elist\\elist\\controllers\\listrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|solutionrelative:elist\\controllers\\listrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|c:\\users\\me\\source\\repos\\elist\\elist\\models\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|solutionrelative:elist\\models\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|c:\\users\\me\\source\\repos\\elist\\elist\\models\\baseclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|solutionrelative:elist\\models\\baseclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|c:\\users\\me\\source\\repos\\elist\\elist\\data\\listrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|solutionrelative:elist\\data\\listrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,18 +39,6 @@
       "RelativeMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|solutionrelative:elist\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|c:\\users\\me\\source\\repos\\elist\\elist\\models\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|solutionrelative:elist\\models\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|c:\\users\\me\\source\\repos\\elist\\elist\\controllers\\listrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|solutionrelative:elist\\controllers\\listrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|c:\\users\\me\\source\\repos\\elist\\elist\\models\\baseclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|solutionrelative:elist\\models\\baseclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|c:\\users\\me\\source\\repos\\elist\\elist\\elist.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|solutionrelative:elist\\elist.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
@@ -50,17 +50,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ListRepository.cs",
               "DocumentMoniker": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\Data\\ListRepository.cs",
               "RelativeDocumentMoniker": "Elist\\Data\\ListRepository.cs",
               "ToolTip": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\Data\\ListRepository.cs",
               "RelativeToolTip": "Elist\\Data\\ListRepository.cs",
-              "ViewState": "AgIAAJAAAAAAAIAWMusdwHkAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAIMAAAAAAEAdnnUqwHkAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-11T12:57:51.649Z",
               "IsPinned": true,
@@ -99,25 +99,8 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "Elist\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\appsettings.Development.json",
-              "RelativeToolTip": "Elist\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-11T13:07:19.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Elist.http",
               "DocumentMoniker": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\Elist.http",
               "RelativeDocumentMoniker": "Elist\\Elist.http",
@@ -130,7 +113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\Program.cs",
               "RelativeDocumentMoniker": "Elist\\Program.cs",
@@ -144,6 +127,62 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "BaseClass.cs",
+              "DocumentMoniker": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\Models\\BaseClass.cs",
+              "RelativeDocumentMoniker": "Elist\\Models\\BaseClass.cs",
+              "ToolTip": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\Models\\BaseClass.cs",
+              "RelativeToolTip": "Elist\\Models\\BaseClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T12:55:53.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tasks.cs",
+              "DocumentMoniker": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\Models\\Tasks.cs",
+              "RelativeDocumentMoniker": "Elist\\Models\\Tasks.cs",
+              "ToolTip": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\Models\\Tasks.cs",
+              "RelativeToolTip": "Elist\\Models\\Tasks.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T12:56:37.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\Controllers\\ListRepository.cs",
+              "RelativeDocumentMoniker": "Elist\\Controllers\\ListRepository.cs",
+              "ToolTip": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\Controllers\\ListRepository.cs",
+              "RelativeToolTip": "Elist\\Controllers\\ListRepository.cs",
+              "ViewState": "AgIAADMAAAAAAID2g5EpwDwAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T12:55:09.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Elist\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\appsettings.Development.json",
+              "RelativeToolTip": "Elist\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-11T13:07:19.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Elist\\Properties\\launchSettings.json",
@@ -156,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\appsettings.json",
               "RelativeDocumentMoniker": "Elist\\appsettings.json",
@@ -165,45 +204,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-12-11T13:07:14.68Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Tasks.cs",
-              "DocumentMoniker": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\Models\\Tasks.cs",
-              "RelativeDocumentMoniker": "Elist\\Models\\Tasks.cs",
-              "ToolTip": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\Models\\Tasks.cs",
-              "RelativeToolTip": "Elist\\Models\\Tasks.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T12:56:37.881Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ListRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\Controllers\\ListRepository.cs",
-              "RelativeDocumentMoniker": "Elist\\Controllers\\ListRepository.cs",
-              "ToolTip": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\Controllers\\ListRepository.cs",
-              "RelativeToolTip": "Elist\\Controllers\\ListRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T12:55:09.164Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BaseClass.cs",
-              "DocumentMoniker": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\Models\\BaseClass.cs",
-              "RelativeDocumentMoniker": "Elist\\Models\\BaseClass.cs",
-              "ToolTip": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\Models\\BaseClass.cs",
-              "RelativeToolTip": "Elist\\Models\\BaseClass.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T12:55:53.852Z",
               "EditorCaption": ""
             },
             {

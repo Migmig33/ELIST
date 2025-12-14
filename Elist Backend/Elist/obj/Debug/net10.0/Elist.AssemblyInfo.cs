@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Elist")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bbdd235dff6a1746ebc6388249a9a0df9733c27c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Elist")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Elist")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

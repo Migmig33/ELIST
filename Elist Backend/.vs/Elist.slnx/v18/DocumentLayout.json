@@ -1,45 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ME\\source\\repos\\Elist\\",
+  "WorkspaceRootPath": "C:\\Users\\ME\\OneDrive\\Desktop\\Backend\\Elist Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|c:\\users\\me\\source\\repos\\elist\\elist\\controllers\\listrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|solutionrelative:elist\\controllers\\listrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|c:\\users\\me\\source\\repos\\elist\\elist\\models\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|solutionrelative:elist\\models\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|c:\\users\\me\\source\\repos\\elist\\elist\\models\\baseclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|solutionrelative:elist\\models\\baseclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|c:\\users\\me\\source\\repos\\elist\\elist\\data\\listrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|solutionrelative:elist\\data\\listrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|c:\\users\\me\\source\\repos\\elist\\elist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|solutionrelative:elist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|c:\\users\\me\\source\\repos\\elist\\elist\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|solutionrelative:elist\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|c:\\users\\me\\source\\repos\\elist\\elist\\elist.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "AbsoluteMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|c:\\users\\me\\onedrive\\desktop\\backend\\elist backend\\elist\\elist.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|solutionrelative:elist\\elist.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|c:\\users\\me\\source\\repos\\elist\\elist\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|solutionrelative:elist\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|c:\\users\\me\\onedrive\\desktop\\backend\\elist backend\\elist\\models\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|solutionrelative:elist\\models\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|c:\\users\\me\\source\\repos\\elist\\elist\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|c:\\users\\me\\onedrive\\desktop\\backend\\elist backend\\elist\\models\\baseclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|solutionrelative:elist\\models\\baseclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|c:\\users\\me\\onedrive\\desktop\\backend\\elist backend\\elist\\data\\listrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|solutionrelative:elist\\data\\listrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|c:\\users\\me\\onedrive\\desktop\\backend\\elist backend\\elist\\controllers\\listrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|solutionrelative:elist\\controllers\\listrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|c:\\users\\me\\onedrive\\desktop\\backend\\elist backend\\elist\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|solutionrelative:elist\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|c:\\users\\me\\onedrive\\desktop\\backend\\elist backend\\elist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|solutionrelative:elist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|c:\\users\\me\\onedrive\\desktop\\backend\\elist backend\\elist\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|solutionrelative:elist\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|c:\\users\\me\\source\\repos\\elist\\elist\\elist.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|c:\\users\\me\\onedrive\\desktop\\backend\\elist backend\\elist\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|solutionrelative:elist\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|c:\\users\\me\\onedrive\\desktop\\backend\\elist backend\\elist\\elist.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{FE71E05B-5260-85E2-BCEA-F07F5F09D8F2}|Elist\\Elist.csproj|solutionrelative:elist\\elist.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -56,11 +56,11 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "ListRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\Data\\ListRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ME\\OneDrive\\Desktop\\Backend\\Elist Backend\\Elist\\Data\\ListRepository.cs",
               "RelativeDocumentMoniker": "Elist\\Data\\ListRepository.cs",
-              "ToolTip": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\Data\\ListRepository.cs",
+              "ToolTip": "C:\\Users\\ME\\OneDrive\\Desktop\\Backend\\Elist Backend\\Elist\\Data\\ListRepository.cs",
               "RelativeToolTip": "Elist\\Data\\ListRepository.cs",
-              "ViewState": "AgIAAIMAAAAAAEAdnnUqwHkAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAswL0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-11T12:57:51.649Z",
               "IsPinned": true,
@@ -100,37 +100,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Elist.http",
-              "DocumentMoniker": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\Elist.http",
-              "RelativeDocumentMoniker": "Elist\\Elist.http",
-              "ToolTip": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\Elist.http",
-              "RelativeToolTip": "Elist\\Elist.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-12-11T13:08:08.399Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\Program.cs",
-              "RelativeDocumentMoniker": "Elist\\Program.cs",
-              "ToolTip": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\Program.cs",
-              "RelativeToolTip": "Elist\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T13:06:43.962Z",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\ME\\OneDrive\\Desktop\\Backend\\Elist Backend\\Elist\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Elist\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\ME\\OneDrive\\Desktop\\Backend\\Elist Backend\\Elist\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Elist\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-11T13:14:38.193Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "BaseClass.cs",
-              "DocumentMoniker": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\Models\\BaseClass.cs",
+              "DocumentMoniker": "C:\\Users\\ME\\OneDrive\\Desktop\\Backend\\Elist Backend\\Elist\\Models\\BaseClass.cs",
               "RelativeDocumentMoniker": "Elist\\Models\\BaseClass.cs",
-              "ToolTip": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\Models\\BaseClass.cs",
+              "ToolTip": "C:\\Users\\ME\\OneDrive\\Desktop\\Backend\\Elist Backend\\Elist\\Models\\BaseClass.cs",
               "RelativeToolTip": "Elist\\Models\\BaseClass.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -139,13 +126,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ListRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ME\\OneDrive\\Desktop\\Backend\\Elist Backend\\Elist\\Controllers\\ListRepository.cs",
+              "RelativeDocumentMoniker": "Elist\\Controllers\\ListRepository.cs",
+              "ToolTip": "C:\\Users\\ME\\OneDrive\\Desktop\\Backend\\Elist Backend\\Elist\\Controllers\\ListRepository.cs",
+              "RelativeToolTip": "Elist\\Controllers\\ListRepository.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAswFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T12:55:09.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Tasks.cs",
-              "DocumentMoniker": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\Models\\Tasks.cs",
+              "DocumentMoniker": "C:\\Users\\ME\\OneDrive\\Desktop\\Backend\\Elist Backend\\Elist\\Models\\Tasks.cs",
               "RelativeDocumentMoniker": "Elist\\Models\\Tasks.cs",
-              "ToolTip": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\Models\\Tasks.cs",
+              "ToolTip": "C:\\Users\\ME\\OneDrive\\Desktop\\Backend\\Elist Backend\\Elist\\Models\\Tasks.cs",
               "RelativeToolTip": "Elist\\Models\\Tasks.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-11T12:56:37.881Z",
               "EditorCaption": ""
@@ -153,71 +153,69 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ListRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\Controllers\\ListRepository.cs",
-              "RelativeDocumentMoniker": "Elist\\Controllers\\ListRepository.cs",
-              "ToolTip": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\Controllers\\ListRepository.cs",
-              "RelativeToolTip": "Elist\\Controllers\\ListRepository.cs",
-              "ViewState": "AgIAADMAAAAAAID2g5EpwDwAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T12:55:09.164Z",
+              "Title": "Elist.http",
+              "DocumentMoniker": "C:\\Users\\ME\\OneDrive\\Desktop\\Backend\\Elist Backend\\Elist\\Elist.http",
+              "RelativeDocumentMoniker": "Elist\\Elist.http",
+              "ToolTip": "C:\\Users\\ME\\OneDrive\\Desktop\\Backend\\Elist Backend\\Elist\\Elist.http",
+              "RelativeToolTip": "Elist\\Elist.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-12-11T13:08:08.399Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ME\\OneDrive\\Desktop\\Backend\\Elist Backend\\Elist\\Program.cs",
+              "RelativeDocumentMoniker": "Elist\\Program.cs",
+              "ToolTip": "C:\\Users\\ME\\OneDrive\\Desktop\\Backend\\Elist Backend\\Elist\\Program.cs",
+              "RelativeToolTip": "Elist\\Program.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T13:06:43.962Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "Elist\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\appsettings.Development.json",
-              "RelativeToolTip": "Elist\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-11T13:07:19.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Elist\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Elist\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-11T13:14:38.193Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ME\\OneDrive\\Desktop\\Backend\\Elist Backend\\Elist\\appsettings.json",
               "RelativeDocumentMoniker": "Elist\\appsettings.json",
-              "ToolTip": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\appsettings.json",
+              "ToolTip": "C:\\Users\\ME\\OneDrive\\Desktop\\Backend\\Elist Backend\\Elist\\appsettings.json",
               "RelativeToolTip": "Elist\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-12-11T13:07:14.68Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\ME\\OneDrive\\Desktop\\Backend\\Elist Backend\\Elist\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Elist\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\ME\\OneDrive\\Desktop\\Backend\\Elist Backend\\Elist\\appsettings.Development.json",
+              "RelativeToolTip": "Elist\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-11T13:07:19.649Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Elist.csproj",
-              "DocumentMoniker": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\Elist.csproj",
+              "DocumentMoniker": "C:\\Users\\ME\\OneDrive\\Desktop\\Backend\\Elist Backend\\Elist\\Elist.csproj",
               "RelativeDocumentMoniker": "Elist\\Elist.csproj",
-              "ToolTip": "C:\\Users\\ME\\source\\repos\\Elist\\Elist\\Elist.csproj",
+              "ToolTip": "C:\\Users\\ME\\OneDrive\\Desktop\\Backend\\Elist Backend\\Elist\\Elist.csproj",
               "RelativeToolTip": "Elist\\Elist.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-11T12:54:57.321Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T12:54:57.321Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             }
           ]
         }

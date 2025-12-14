@@ -36,6 +36,7 @@ namespace EList.Data
                             task_id = reader.GetGuid("task_id"),
                             task_name = reader.GetString("task_name"),
                             task_description = reader.GetString("task_description"),
+                            due_date = reader.GetDateTime("due_date"),
                             task_isactive = reader.GetBoolean(reader.GetOrdinal("ISACTIVE")),
 
                         });
@@ -67,6 +68,7 @@ namespace EList.Data
                             task_id = reader.GetGuid("task_id"),
                             task_name = reader.GetString("task_name"),
                             task_description = reader.GetString("task_description"),
+                            due_date = reader.GetDateTime("due_date"),
                             task_isactive = reader.GetBoolean(reader.GetOrdinal("ISACTIVE")),
                         });
                     }
