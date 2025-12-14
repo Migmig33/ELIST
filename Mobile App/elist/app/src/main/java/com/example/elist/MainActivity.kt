@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.ListView
 import android.widget.EditText
+import android.widget.SearchView
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -22,6 +23,7 @@ class MainActivity : AppCompatActivity() {
 
 
     private lateinit var task : List<Tasks>
+    private lateinit var adapter : TaskAdapter
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -39,7 +41,7 @@ class MainActivity : AppCompatActivity() {
         }
 
             if (!task.isNullOrEmpty()){
-                val adapter = TaskAdapter(this@MainActivity, task as MutableList<Tasks>)
+                adapter = TaskAdapter(this@MainActivity, task as MutableList<Tasks>)
                 listTask.adapter = adapter
             }else{
                 Toast.makeText(this@MainActivity, "No Tasks Yet", Toast.LENGTH_SHORT).show()
@@ -55,7 +57,8 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("taskId", selectedTask.taskId)
             intent.putExtra("taskName", selectedTask.taskName)
             intent.putExtra("taskDescription", selectedTask.taskDescription)
-            intent.putExtra("taskDueDate", selectedTask.dueDate)
+            val formattedInput = selectedTask.dueDate.replace('T', ' ')
+            intent.putExtra("taskDueDate", formattedInput)
 
 
             startActivity(intent)
@@ -70,6 +73,20 @@ class MainActivity : AppCompatActivity() {
            val intent = Intent(this, AddTask::class.java)
             startActivity(intent)
        }
+
+        //searchTask Function
+        val searchBar = findViewById<SearchView>(R.id.searchTaskView)
+        searchBar.setOnQueryTextListener(object: SearchView.OnQueryTextListener{
+            override fun onQueryTextSubmit(query: String?): Boolean{
+                if(::adapter.isInitialized) adapter.filter.filter(query)
+                return false
+            }
+            override fun onQueryTextChange(newText: String?): Boolean{
+                if(::adapter.isInitialized) adapter.filter.filter(newText)
+                return true
+            }
+        })
+
 
 
     }

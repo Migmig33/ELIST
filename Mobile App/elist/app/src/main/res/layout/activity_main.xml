@@ -10,16 +10,20 @@
 
 
     <SearchView
-        android:id="@+id/searchView"
+        android:id="@+id/searchTaskView"
         android:layout_width="350dp"
         android:layout_height="40dp"
         android:layout_marginTop="70dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginEnd="12dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginEnd="42dp"
+        android:iconifiedByDefault="false"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
         android:background="@drawable/searchborder"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        android:queryHint="Search Task..."
 
         />
 
@@ -35,7 +39,7 @@
         android:textColor="@color/white"
         android:textFontWeight="500"
         android:textSize="35dp"
-        app:layout_constraintTop_toBottomOf="@+id/searchView"
+        app:layout_constraintTop_toBottomOf="@+id/searchTaskView"
         app:layout_constraintStart_toStartOf="parent"
         />
 

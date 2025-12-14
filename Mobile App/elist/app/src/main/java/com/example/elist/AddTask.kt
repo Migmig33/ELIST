@@ -84,7 +84,7 @@ class AddTask : AppCompatActivity() {
             taskName = taskName,
             taskDescription = taskDescription,
             dueDate = isoDate,
-            isactive = false
+            isactive = true
 
         )
         lifecycleScope.launch(Dispatchers.IO){

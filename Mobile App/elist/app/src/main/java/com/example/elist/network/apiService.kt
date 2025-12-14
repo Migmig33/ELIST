@@ -7,6 +7,7 @@ import com.google.gson.reflect.TypeToken
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.io.OutputStreamWriter
+import java.net.URLEncoder
 
 
 object ApiService{
@@ -34,6 +35,28 @@ object ApiService{
                 Gson().fromJson<List<Tasks>>(response, type)
             }else null
         }catch (e: Exception){
+            e.printStackTrace()
+            null
+        }
+    }
+    suspend fun findTaskByName(taskName : String): List<Tasks>?{
+        return try{
+            val api = "http://10.0.2.2:7037/api/List/getByname${URLEncoder.encode(taskName, "UTF-8")}";
+            val url = URL(api)
+            val connection = url.openConnection() as HttpURLConnection
+            connection.requestMethod = "GET"
+            connection.connectTimeout = 5000
+            connection.readTimeout = 5000
+
+            if(connection.responseCode == HttpURLConnection.HTTP_OK){
+                val response = connection.inputStream.bufferedReader().readText()
+                val type = object : TypeToken<List<Tasks>>() {}.type
+                Gson().fromJson<List<Tasks>>(response, type)
+
+            }else null
+
+
+        }catch(e: Exception){
             e.printStackTrace()
             null
         }
@@ -98,6 +121,7 @@ object ApiService{
     }
 
 
+
     suspend fun deleteTask(tasks: Tasks): Boolean{
         return try{
             val api = "http://10.0.2.2:7037/api/List/delete${tasks.taskId}";
@@ -130,5 +154,7 @@ object ApiService{
             e.printStackTrace()
             false
         }
+
+
     }
 }

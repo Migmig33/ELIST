@@ -10,5 +10,6 @@ data class Tasks(
     val taskDescription: String = "",
     @SerializedName("due_date")
     val dueDate: String = "",
-    val isactive: Boolean = false
+    @SerializedName("task_isactive")
+    val isactive: Boolean = true
 )

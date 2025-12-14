@@ -87,8 +87,8 @@ class TaskDetails : AppCompatActivity(){
             taskId = taskoldId,
             taskName = taskName,
             taskDescription = taskDescription,
-            dueDate = isoDate
-
+            dueDate = isoDate,
+            isactive = !cbTaskDone.isChecked
         )
         lifecycleScope.launch(Dispatchers.IO){
             val success = ApiService.addTask(newTask)
