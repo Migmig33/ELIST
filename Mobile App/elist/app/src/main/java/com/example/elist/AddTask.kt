@@ -1,6 +1,7 @@
 package com.example.elist
 
 import android.app.ActivityManager
+import android.content.Intent
 import android.os.Bundle
 import android.widget.EditText
 import android.widget.TextView
@@ -25,6 +26,8 @@ class AddTask : AppCompatActivity() {
     private lateinit var inputTaskDescription: EditText
     private lateinit var inputDueDate: EditText
 
+
+
     private lateinit var addTask: FloatingActionButton
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -46,6 +49,12 @@ class AddTask : AppCompatActivity() {
 
         addTask.setOnClickListener {
             insertTask()
+        }
+
+        backBtn.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+
         }
 
 
@@ -75,7 +84,7 @@ class AddTask : AppCompatActivity() {
             taskName = taskName,
             taskDescription = taskDescription,
             dueDate = isoDate,
-            isactive = true
+            isactive = false
 
         )
         lifecycleScope.launch(Dispatchers.IO){
@@ -89,6 +98,9 @@ class AddTask : AppCompatActivity() {
                 }
             }
         }
+
+
+
 
 
     }

@@ -20,6 +20,7 @@ import kotlinx.coroutines.withContext
 class MainActivity : AppCompatActivity() {
 
 
+
     private lateinit var task : List<Tasks>
 
 
@@ -47,6 +48,20 @@ class MainActivity : AppCompatActivity() {
 
 
         }
+        listTask.setOnItemClickListener { _, _, position, _ ->
+            val selectedTask = task[position]
+
+            val intent = Intent(this, TaskDetails::class.java)
+            intent.putExtra("taskId", selectedTask.taskId)
+            intent.putExtra("taskName", selectedTask.taskName)
+            intent.putExtra("taskDescription", selectedTask.taskDescription)
+            intent.putExtra("taskDueDate", selectedTask.dueDate)
+
+
+            startActivity(intent)
+
+
+        }
 
         //addTask Function
         val btnAddTask = findViewById<FloatingActionButton>(R.id.addTask)
@@ -55,5 +70,7 @@ class MainActivity : AppCompatActivity() {
            val intent = Intent(this, AddTask::class.java)
             startActivity(intent)
        }
+
+
     }
 }
