@@ -9,8 +9,7 @@ It consist of an Android mobile application and a backend RESTful API connected 
 
 - Add tasks  
 - View task list  
-- Mark tasks as done/completed  
-- Delete tasks  
+- Mark tasks as done or completed / Delete Task(soft delete)
 - RESTful API-based CRUD operations
 
 ---
