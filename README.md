@@ -116,6 +116,6 @@ https://github.com/user-attachments/assets/52368571-b851-45b0-9ed8-229462c11720
 
 **Published** December 2025
 
-**Project Link:** [[https://github.com/Migmig33/eManagePro](https://github.com/Migmig33/eManagePro)](https://github.com/Migmig33/Flappy-Bird---Python.git)
+**Project Link:** [(https://github.com/Migmig33/ELIST.git)]
 
 This Project is for educational use only.
