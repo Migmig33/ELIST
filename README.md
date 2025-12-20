@@ -77,12 +77,12 @@ It consist of an Android mobile application and a backend RESTful API connected 
 <img width="1920" height="955" alt="image" src="https://github.com/user-attachments/assets/e2744cb4-cd74-4f58-a15c-933f8746e0b2" />
 
 # Mobile UI (No Data/API)
-<img width="600" height="2460" alt="image" src="https://github.com/user-attachments/assets/a4767669-ef8a-45c7-93ed-6160c70cd5d5" />
-<img width="600" height="2050" alt="image" src="https://github.com/user-attachments/assets/b4beb1e3-8adc-41ce-b144-a3855c03dd45" />
+<img width="600" height="1500" alt="image" src="https://github.com/user-attachments/assets/a4767669-ef8a-45c7-93ed-6160c70cd5d5" />
+<img width="600" height="1500" alt="image" src="https://github.com/user-attachments/assets/b4beb1e3-8adc-41ce-b144-a3855c03dd45" />
 
 # Mobile UI (With Data/API)
-<img width="900" height="2050" alt="image" src="https://github.com/user-attachments/assets/e0806a86-5f75-405c-97b2-8e1cd432aa85" />
-<img width="900" height="2050" alt="image" src="https://github.com/user-attachments/assets/2a888444-e995-4a42-a177-82ae537b3b4e" />
+<img width="600" height="1500" alt="image" src="https://github.com/user-attachments/assets/e0806a86-5f75-405c-97b2-8e1cd432aa85" />
+<img width="600" height="1500" alt="image" src="https://github.com/user-attachments/assets/2a888444-e995-4a42-a177-82ae537b3b4e" />
 
 
 ## 🎬 VIDEO DEMO
