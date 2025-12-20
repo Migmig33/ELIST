@@ -70,17 +70,41 @@ It consist of an Android mobile application and a backend RESTful API connected 
 - This project is intended for `project portfolio purposes`.
 - Installation instructions are intentionally omitted.
 
-## Screenshot
+## 🖼️ Screenshot
 # Swagger - API Endpoints
 <img width="1905" height="1005" alt="image" src="https://github.com/user-attachments/assets/f3adbf99-0bc6-49d9-a370-fa6d91c88732" />
 <img width="1856" height="893" alt="image" src="https://github.com/user-attachments/assets/f491f01b-66a3-4989-9936-0d610bad4649" />
 <img width="1920" height="955" alt="image" src="https://github.com/user-attachments/assets/e2744cb4-cd74-4f58-a15c-933f8746e0b2" />
 
 # Mobile UI (No Data/API)
-<img width="1080" height="2460" alt="image" src="https://github.com/user-attachments/assets/a4767669-ef8a-45c7-93ed-6160c70cd5d5" />
-<img width="900" height="2050" alt="image" src="https://github.com/user-attachments/assets/b4beb1e3-8adc-41ce-b144-a3855c03dd45" />
+<img width="600" height="2460" alt="image" src="https://github.com/user-attachments/assets/a4767669-ef8a-45c7-93ed-6160c70cd5d5" />
+<img width="600" height="2050" alt="image" src="https://github.com/user-attachments/assets/b4beb1e3-8adc-41ce-b144-a3855c03dd45" />
 
 # Mobile UI (With Data/API)
+<img width="900" height="2050" alt="image" src="https://github.com/user-attachments/assets/e0806a86-5f75-405c-97b2-8e1cd432aa85" />
+<img width="900" height="2050" alt="image" src="https://github.com/user-attachments/assets/2a888444-e995-4a42-a177-82ae537b3b4e" />
+
+
+## 🎬 VIDEO DEMO
+# Search
+https://github.com/user-attachments/assets/32da0531-62e4-4f03-8b7f-764f4352c7ff
+
+# Insert Task
+https://github.com/user-attachments/assets/ecba5264-077d-4c52-86c9-580a38d334fb
+
+# View Task/Edit Task
+https://github.com/user-attachments/assets/2f960d3e-d241-439f-aa3f-3d80715857c9
+
+# Delete / Set as done Task
+https://github.com/user-attachments/assets/52368571-b851-45b0-9ed8-229462c11720
+
+
+
+
+
+
+
+
 
 
 
