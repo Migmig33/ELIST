@@ -5,7 +5,7 @@ It consist of an Android mobile application and a backend RESTful API connected 
 
 ---
 
-## 🚀 Features
+## Features
 
 - Add tasks  
 - View task list  
@@ -14,7 +14,7 @@ It consist of an Android mobile application and a backend RESTful API connected 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Mobile Application
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
@@ -31,7 +31,7 @@ It consist of an Android mobile application and a backend RESTful API connected 
 ---
 
 
-## 📁 Project Structure
+## Project Structure
 ```ELIST/
 ├── Elist Backend/                          # Backend project (ASP.NET C#)
 │   ├── .vs/                                # Visual Studio hidden files
@@ -65,11 +65,11 @@ It consist of an Android mobile application and a backend RESTful API connected 
     └── elist.sql                           # Sql Script
 
 ```
-### ⚠️ Notes
+### Note
 - This project is intended for `project portfolio purposes`.
 - Installation instructions are intentionally omitted.
 
-## 🖼️ Screenshot
+## Screenshot
 # Swagger - API Endpoints
 <img width="1905" height="1005" alt="image" src="https://github.com/user-attachments/assets/f3adbf99-0bc6-49d9-a370-fa6d91c88732" />
 <img width="1856" height="893" alt="image" src="https://github.com/user-attachments/assets/f491f01b-66a3-4989-9936-0d610bad4649" />
@@ -84,7 +84,7 @@ It consist of an Android mobile application and a backend RESTful API connected 
 <img width="600" height="1500" alt="image" src="https://github.com/user-attachments/assets/2a888444-e995-4a42-a177-82ae537b3b4e" />
 
 
-## 🎬 VIDEO DEMO
+## VIDEO DEMO
 # Search
 https://github.com/user-attachments/assets/32da0531-62e4-4f03-8b7f-764f4352c7ff
 
@@ -107,7 +107,7 @@ https://github.com/user-attachments/assets/52368571-b851-45b0-9ed8-229462c11720
 
 
 
-## 📞 Contact
+## Contact
 
 **Developer:** Miguel Andrei C Tan
 
